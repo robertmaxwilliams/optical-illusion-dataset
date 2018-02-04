@@ -4,4 +4,4 @@ JSON files with image links and metadata for optical illusions. Stay tuned as it
 ## Files:
 * moillusions_data.json 
 
-6436 image links and metadata from https://www.moillusions.com/4-dots-illusion/
+6436 image links and metadata from https://www.moillusions.com/
