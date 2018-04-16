@@ -10,15 +10,17 @@ JSON files with image links and metadata for optical illusions. Stay tuned as it
 * viperlib_data.json: viperlib image URLs and metadata
 * viper-downloader.py: downloades images linked in JSON above into data/
 
+## Sources:
 
 6436 image links and metadata from https://www.moillusions.com/
 
 1454 image links and metadata from http://viperlib.york.ac.uk/
 
+## Download JPEGs:
+
 The full image download can be found here (**6725** images) :
 
 <https://www.floydhub.com/robertmax/datasets/illusions-jpg>
-
 
 A greatly reduced dataset of only images that have eye-bending patterns is here (**569** images, hand picked):
 
