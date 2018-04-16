@@ -15,7 +15,14 @@ JSON files with image links and metadata for optical illusions. Stay tuned as it
 
 1454 image links and metadata from http://viperlib.york.ac.uk/
 
-See dataset hosted on  TODO: host dataset somewhere
+The full image download can be found here (**6725** images) :
+
+<https://www.floydhub.com/robertmax/datasets/illusions-jpg>
+
+
+A greatly reduced dataset of only images that have eye-bending patterns is here (**569** images, hand picked):
+
+<https://www.floydhub.com/robertmax/datasets/illusions-filtered>
 
 ## My dataset build procese: 
 If you want to replicate it, for more latest images, or if some weird bug appears and documentation becomes important:
@@ -28,5 +35,6 @@ If you want to replicate it, for more latest images, or if some weird bug appear
 - rename data/ to something like viper-data/ etc
 
 ## Next steps
-- merge both json files
-- manually sort images for immediate illusory content, so they can be used to train in illusion GAN
+- come up with a scheme to combine website provided categories (some effort towards this in `combiner.py`)
+- train a GAN on the filtered images
+- learn a latent space for the images and do dimensionality reduction of some sort on it
